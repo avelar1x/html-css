@@ -1,0 +1,223 @@
+DEV
+
+HTML
+Título: (Abertura de tag) <h1> (Conteúdo) </h1> (Fechamento de tag)
+Parágrafo: (Abertura de tag) <p> (Conteúdo) </p> (Fechamento de tag)
+
+HIERARQUIA DE TÍTULOS
+Título principal (h1) Pode ter mais de um H1
+Subtítulo (h2)
+(h3)
+(h4)
+(h5)
+(h6)
+OBS: Não existe h0 e nem h7.
+
+SEMÂNTICA NO HTML
+
+
+
+CSS
+(Seletor) H1{
+(Declaração) Font-family: Arial (Valor) 
+(Declaração) Font-size: 20px (Valor)
+(Declaração) Color: blue (Valor)
+}
+Posicionar texto: 
+text-align
+
+
+IMAGEM PARA SITE
+1000:1000px
+
+IMAGEM PARA CELULAR (Gimp)
+300:300px 
+
+IMAGEM PARA TABLET
+700:700px
+
+<picture>
+        <source media="(max-width:750px )" srcset="image/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="Image/foto-m.png" type="image/png">
+        <img src="Image/foto-g.png" alt="Imagem grande">
+</picture>
+
+
+REPRODUZIR ÁUDIO
+<audio src="media/musica1.mp3" controls autoplay></audio>
+
+REPRODUZIR VÍDEO ( local )
+<video width="500" controls poster="image/foto-m.png">
+        <source src="videos/cafe.mp4">
+        <source src="videos/cafe.webm">
+        <p>Seu navegador não consegue reproduzir vídeo.</p>
+</video>
+
+REPRODUZIR VÍDEO ( youtube )
+<h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=HlfTRwSDFPMygcAb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+CORES
+
+Cor: *Vermelho*
+Associada a: amor, emoção, energia, raiva,
+perigo
+Usar em:comida, moda, entretenimento,
+serviços de emergência e saúde
+Evitar:luxo, natureza, serviços
+em geral
+
+Cor: *Amarelo*
+Associada a:felicidade, alegria, otimismo,
+covardia
+Usar em:dar luz, dar calma e felicidade,
+chamar atenção 
+Evitar:pode indicar que algo é
+barato ou spam
+
+Cor: *Laranja*
+Associada a:divertimento, ambição, calor,
+cautela
+Usar em:comércio eletrônico,
+entretenimento, call-to-action
+Evitar:pode se tornar cansativo
+se muito explorado 
+
+
+Cor: *Verde*
+Associada a:saúde, natureza, dinheiro,
+sorte, inveja
+Usar em:relaxamento, turismo,
+nanceiros, meio ambiente
+Evitar:luxo, tecnologia,
+meninas adolescentes
+
+Cor: *Azul*
+Associada a:competência, sabedoria,
+calma, frio
+Usar em:tecnologia, medicina, ciências,
+governo
+Evitar:comida (reduz apetite)
+
+Cor: *Roxo*
+Associada a:criatividade, poder,
+sabedoria, mistério
+Usar em:produtos de beleza, astrologia,
+ioga, espiritualidade, adolescente
+Evitar:não prende muito a
+atenção, indiferente 
+
+Cor: *Marrom*
+Associada a:terra, robustez, estabilidade,
+amizade 
+Usar em:alimentação, imobiliária, animais,
+finanças
+Evitar:cor considerada
+conservadora
+
+Cor: *Preto*
+Associada a:elegância, autoridade,
+mistério, morte
+Usar em:luxo, moda, marketing,
+cosméticos
+Evitar:desconforto e medo
+
+Cor: *Branco*
+Associada a:pureza, limpeza, felicidade,
+segurança
+Usar em:medicina, saúde, tecnologia, luxo
+(com preto, ouro, cinza)
+Evitar:não chama atenção,
+deve ser combinado
+
+Cor: *Cinza*
+Associada a:formalidade, sofisticação,
+frieza, indiferença
+Usar em:bens de luxo, efeito calmante
+Evitar:dá a sensação de frieza 
+
+
+Cor: *Rosa*
+Associada a:amor, romance, sinceridade,
+cuidados
+Usar em:produtos femininos e cosméticos 
+Evitar:pode tornar muito
+sentimental e doce 
+
+HARMONIA DE CORES
+Cores Primárias: Azul, Amarelo e Vermelho;
+Cores Secundárias: Laranja, Violeta e Verde;
+Cores Terciárias: Amarelo-esverdeado, Amarelo-alaranjado, Vermelho-alaranjado, Vermelho-arroxeado, azul-arroxeado e Azul-esverdeado;
+
+Temperaturas de cores
+Cores Quentes: Amarelo, Laranja, Vermelho, Amarelo-alaranjado, Vermelho-alaranjado e Vermelho-arroxeado;
+Cores Frias:  Azul, Verde, Violeta, Amarelo-esverdeado, azul-arroxeado e Azul-esverdeado;
+
+Cores Complementares
+A cor complementar será sempre a oposta no círculo monocromática 
+
+Cores Análogas
+Será sempre as cores vizinhas no círculo monocromática 
+
+Cores Análogas e Complementares
+Cores vizinhas mais a cor oposta no círculo monocromática
+
+Cores Análogas Relacionadas
+Duas cores vizinhas, pula uma e seleciona a outra ( para qualquer lado )
+
+Cores Intercaladas
+Escolhe uma cor, pula uma e seleciona a outra, pula uma e seleciona a outra
+
+Cores Triádicas
+Seleciona uma cor, pula três e seleciona a outra, pula três e seleciona a outra
+
+Cores em Quadrados
+
+Seleciona uma cor, pula duas e seleciona a outra, pula duas e seleciona a outra
+
+Cores Tetrádicas
+Selecionar duas cores e selecionar as cores complementares
+
+Cores Monocromia
+Seleciona uma cor e modifica a saturação e luminosidade dela ( utilizando css por exemplo)
+
+LETRAS E FONTES
+
+Medidas Absolutas
+CM, MM, IN, PX, PT, PC
+
+Medidas Relativas
+EM, EX, REM, VW
+
+
+DIV HOVER {MUDAR A COR AO PASSAR O MOUSE}
+
+div > p {
+display: none; ( serve para esconder um texto)
+}
+
+div:hover > p {
+display:block  ( serve para mostrar o texto escondido ao passar o mouse)
+}
+
+
+
+.a:visited{
+    color: darkred; ( mudar a cor de links j� visitados )
+}
+
+
+
+a:hover{
+    text-decoration: underline; 
+    color: black; ( ao passar o mouse o link fica preto e sublinhado)
+}
+
+text-decoration: none; ( tirar sublinhado do texto )
+
+
+
+
+
+

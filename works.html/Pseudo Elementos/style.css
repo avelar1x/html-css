@@ -1,0 +1,29 @@
+.corpo{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.a{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.a:visited{
+    color: darkred;
+}
+
+.a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.a:active{
+    color: yellow;
+}
+
+.a::after{
+    content: '[Link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: gray;
+}

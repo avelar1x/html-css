@@ -1,0 +1,41 @@
+.c{
+    font: times 1em "work sans", sans-serif ;
+}
+   
+.h1{
+    font: italic bolder 2em "work sans", sans-serif ;
+}
+
+.g{
+    font-family: 'Handlee';
+}
+
+.G1{
+    font-family: 'Delicious Handrawn', sans-serif;
+}
+
+.fe{
+    font-family: 'Destine';
+}
+
+.fe1{
+    font-family: 'Bluesty';
+}
+
+.div{
+    font: normal 1em Arial, verdana, serif ;
+    
+}
+
+.tittle{
+    text-align: center;
+}
+
+.subtittle{
+    text-align: center;
+}
+
+.paragrafo{
+    text-align: justify;
+    text-indent: 30px;
+}

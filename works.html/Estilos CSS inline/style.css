@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+.pag1{
+    background-color: red;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+   
+}
+
+.pag2{
+    color: black;
+    background-color: white;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.up{
+    color: black;
+    background-color: white;
+}

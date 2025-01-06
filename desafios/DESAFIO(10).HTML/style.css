@@ -1,0 +1,72 @@
+.body{
+    background-color: rgb(147, 247, 160);
+}
+
+.header{
+    padding: 10px;
+    margin: -7px;
+    height: 300px;
+    background-image: linear-gradient(to top, rgb(1, 66, 1), rgb(3, 228, 3));
+}
+
+.h1{
+    color: white;
+    text-align: center;
+}
+
+.h2{
+    text-align: center;
+    color: white;
+}
+
+.nav{
+    text-indent: 10px;
+    line-height: 350px;
+    color: white;
+    text-align:;
+}
+
+.main{
+    margin: 50px;
+    background-color: white;
+    height: 100%;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+
+.android{
+    font-style: normal;
+    text-decoration: solid;
+    color: green;
+}
+
+.h12{
+    color: green;
+}
+
+.paragrafo{
+    text-indent: 25px;
+}
+
+.p1{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(6, 129, 6, 0.877);
+}
+
+.aside{
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(1, 70, 1);
+}
+.p2{
+    text-indent: 25px;
+    color: white;
+    background-color: rgb(1, 70, 1);
+}
+
+.footer{
+    text-align: center;
+    color: lightgray;
+    background-color: rgb(1, 70, 1);
+}
